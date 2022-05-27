@@ -6,6 +6,26 @@
   color: #cc0a0a;
 }
 
+button[data-v-1d144fe5] {
+    width: 120px;
+    color: -internal-light-dark(black, white);
+    text-indent: 0px;
+    text-align: center;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    margin: 0em;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-radius: 2px;
+}
+.fakeButton[data-v-1d144fe5] {
+  color: #9803a5;
+  background: #a78e06;
+  /* transition: color 1s; */
+}
+.fakeButton[data-v-1d144fe5]:hover {
+  color: #a78e06;
+  background: #9803a5;
+}
+
 .middle[data-v-6ca75dfe] {
   transition: .5s ease;
   opacity: 0;
@@ -94,26 +114,6 @@ outline: #333 solid 4px;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
-}
-
-button[data-v-1d144fe5] {
-    width: 120px;
-    color: -internal-light-dark(black, white);
-    text-indent: 0px;
-    text-align: center;
-    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
-    margin: 0em;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-    border-radius: 2px;
-}
-.fakeButton[data-v-1d144fe5] {
-  color: #9803a5;
-  background: #a78e06;
-  /* transition: color 1s; */
-}
-.fakeButton[data-v-1d144fe5]:hover {
-  color: #a78e06;
-  background: #9803a5;
 }
 /* http://meyerweb.com/eric/tools/css/reset/
    v4.0 | 20180602
@@ -406,20 +406,6 @@ a:hover {
   outline: #2370FD solid 2px;
 
 }
-a[data-v-9ffe3f52] {
-  color: #b542b9;
-}
-button[data-v-9ffe3f52] {
-  width: 150px;
-}
-.fade[data-v-9ffe3f52] {
-  color: #9803a5;
-  /* transition: color 1s; */
-}
-.fade[data-v-9ffe3f52]:hover {
-  color: #06a71b;
-}
-
 a[data-v-06a9f319] {
   color: #b542b9;
 }
@@ -432,4 +418,18 @@ button[data-v-06a9f319] {
 }
 .fade[data-v-06a9f319]:hover {
   color: #a78e06;
+}
+
+a[data-v-9ffe3f52] {
+  color: #b542b9;
+}
+button[data-v-9ffe3f52] {
+  width: 150px;
+}
+.fade[data-v-9ffe3f52] {
+  color: #9803a5;
+  /* transition: color 1s; */
+}
+.fade[data-v-9ffe3f52]:hover {
+  color: #06a71b;
 }
