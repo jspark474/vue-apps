@@ -412,12 +412,20 @@ button[data-v-f3c1f56a] {
   padding: 16px 32px;
 }
 
+#example1[data-v-06d3143c] {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.example1[data-v-306780be] {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .img_Hover2[data-v-1ea3d978]:hover{
 outline: #333 solid 4px;
 }
 
 
-.middle[data-v-436f40ac] {
+.middle[data-v-11559468] {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -427,7 +435,7 @@ outline: #333 solid 4px;
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.textx[data-v-436f40ac] {
+.textx[data-v-11559468] {
   background-color: #04AA6D;
   color: white;
   font-size: 16px;
