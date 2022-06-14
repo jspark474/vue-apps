@@ -165,6 +165,15 @@ footer, header, hgroup, main, menu, nav, section {
     margin-left: 25px;
     margin-right: 25px;
     }
+
+    .shadowbox{
+      margin-left: 10px;
+      margin-right: 10px;
+      padding:25px;
+      background-color: white;  
+      box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+   }
+
     .lgquote{
       font-family: 'Roboto Flex', sans-serif;
       font-size: 5rem;
@@ -412,11 +421,7 @@ button[data-v-f3c1f56a] {
   padding: 16px 32px;
 }
 
-#example1[data-v-06d3143c] {
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.example1[data-v-306780be] {
+#example1[data-v-08d818fc] {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
